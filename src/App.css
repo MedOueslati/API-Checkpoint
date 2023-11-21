@@ -1,49 +1,29 @@
-.App {
-  text-align: center;
-  font-family: Roboto, Helvetica, sans-serif;
+/* Add this to your CSS file or style block */
+* {
+  font-size: 14px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.card-list {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-wrap: wrap;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+ 
+}
+.card-body {
+  background: #000000c4;
   color: white;
+  padding:5px
 }
-
-.App-link {
-  color: #61dafb;
+.userlist h2 {
+  text-align: center;
+  padding: 10px;
+  color: black;
+  font-family:'Times New Roman', Times, serif
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.list h2 {
-border: 1px solid white;
-background: dodgerblue;
-}
-ul {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
+.card-title {
+  text-align: center;
+  font-family: 'roboto';
+  height: 40px;
+  padding-top: 10px;
 }

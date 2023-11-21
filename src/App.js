@@ -1,14 +1,13 @@
 // App.js
 import React from 'react';
-import UserList from './UserList';
+import UserList from './components/UserList';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'; // You can style your app in App.css
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
         <UserList />
-      </header>
     </div>
   );
 }
